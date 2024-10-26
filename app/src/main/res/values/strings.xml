@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Memorize It</string>
+
+    <string name="tut1">
+        The goal is to identify the matching pairs by memorizing the position of each card. How to do this?
+    </string>
+
+    <string name="tut2">
+        1.Tap a tile, it will reveal you an emoji.
+    </string>
+
+    <string name="tut3">
+        2. Now think of a tile other than that which on tapping will reveal same emoji as the previous one.
+    </string>
+
+    <string name="tut4">
+         Case 1: if both turn out to be the same. Good, it will count as success. Go for the next tiles.
+    </string>
+
+    <string name="tut5">
+        Case 2: if both turn out to be different, keep in mind, the position of the forbidden emoji tiles. so that when in next turn you find a tile of similar emoji, you can make them match.
+    </string>
+</resources>
