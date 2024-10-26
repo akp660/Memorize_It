@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Home_Page extends AppCompatActivity {
 
-    CardView i_btn;
+    CardView i_btn, play_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,9 +28,24 @@ public class Home_Page extends AppCompatActivity {
 
 
         i_btn = findViewById(R.id.i_btn);
+        play_btn = findViewById(R.id.play_btn);
 
 
 
+
+// onClick method for Play Button.
+        play_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Intent to open the desired activity
+                Intent intent = new Intent(Home_Page.this, select_level_page.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+// onClick method for Tutorial Button.
         i_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
