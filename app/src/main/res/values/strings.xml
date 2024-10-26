@@ -20,4 +20,14 @@
     <string name="tut5">
         Case 2: if both turn out to be different, keep in mind, the position of the forbidden emoji tiles. so that when in next turn you find a tile of similar emoji, you can make them match.
     </string>
+
+    <string name="easy_text">
+        4X3 Blocks.
+    </string>
+    <string name="medium_text">
+        5X4 Blocks.
+    </string>
+    <string name="hard_text">
+        6X5 Blocks.
+    </string>
 </resources>
