@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MemorizeIt"
         tools:targetApi="31">
         <activity
+            android:name=".game_page"
+            android:exported="false" />
+        <activity
             android:name=".select_level_page"
             android:exported="false" />
         <activity
