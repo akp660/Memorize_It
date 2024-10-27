@@ -9,6 +9,18 @@
     android:layout_height="match_parent"
     tools:context=".game_page">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="-70dp"
+        android:layout_marginEnd="-70dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background_tutorial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <!-- Main content area -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/parentLayout"
