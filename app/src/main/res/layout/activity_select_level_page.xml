@@ -23,12 +23,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView2"
+        android:id="@+id/easy"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         app:cardBackgroundColor="#001B49"
-        app:layout_constraintBottom_toTopOf="@+id/materialCardView"
+        app:layout_constraintBottom_toTopOf="@+id/medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:strokeColor="#C5CBFF"
@@ -65,12 +65,12 @@
         android:text="@string/easy_text"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/materialCardView2"
-        app:layout_constraintStart_toStartOf="@+id/materialCardView2"
-        app:layout_constraintTop_toBottomOf="@+id/materialCardView2" />
+        app:layout_constraintEnd_toEndOf="@+id/easy"
+        app:layout_constraintStart_toStartOf="@+id/easy"
+        app:layout_constraintTop_toBottomOf="@+id/easy" />
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView"
+        android:id="@+id/medium"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         app:cardBackgroundColor="#001B49"
@@ -113,19 +113,19 @@
         android:text="@string/medium_text"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/materialCardView"
-        app:layout_constraintStart_toStartOf="@+id/materialCardView"
-        app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+        app:layout_constraintEnd_toEndOf="@+id/medium"
+        app:layout_constraintStart_toStartOf="@+id/medium"
+        app:layout_constraintTop_toBottomOf="@+id/medium" />
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView3"
+        android:id="@+id/hard"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         app:cardBackgroundColor="#001B49"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialCardView"
+        app:layout_constraintTop_toBottomOf="@+id/medium"
         app:strokeColor="#C5CBFF"
         app:strokeWidth="2dp">
 
@@ -160,8 +160,8 @@
         android:text="@string/hard_text"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/materialCardView3"
-        app:layout_constraintStart_toStartOf="@+id/materialCardView3"
-        app:layout_constraintTop_toBottomOf="@+id/materialCardView3" />
+        app:layout_constraintEnd_toEndOf="@+id/hard"
+        app:layout_constraintStart_toStartOf="@+id/hard"
+        app:layout_constraintTop_toBottomOf="@+id/hard" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
