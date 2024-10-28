@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/afacad_medium</item>
+        <item>@font/caveat_brush</item>
+        <item>@font/cherry_bomb_one</item>
+    </array>
+</resources>
