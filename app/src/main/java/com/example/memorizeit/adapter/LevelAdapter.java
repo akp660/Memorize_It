@@ -181,27 +181,27 @@ public class LevelAdapter extends RecyclerView.Adapter<LevelAdapter.ViewHolder> 
         dialog.setContentView(R.layout.dialog_score);
         dialog.show();
 
-        Button btnDone = dialog.findViewById(R.id.btnDone);
-        TextView congratsMessage = dialog.findViewById(R.id.congratsMessage);
+        CardView btnDone = dialog.findViewById(R.id.btnDone);
+        //TextView congratsMessage = dialog.findViewById(R.id.congratsMessage);
         TextView yourScore = dialog.findViewById(R.id.yourScore);
         TextView highestScore = dialog.findViewById(R.id.highestScore);
         TextView newHighScore = dialog.findViewById(R.id.newHighScore);
 
-        congratsMessage.setText("Congratulations " + playerName + "!");
-        yourScore.setText("Your score: " + score);
+       // congratsMessage.setText("Congratulations " + playerName + "!");
+        yourScore.setText(score);
 
         String getHighscore = getHighScoreAccToLevel(noOfCols);
         if (getHighscore == null) {
-            highestScore.setText("Highest Score: " + score);
+            highestScore.setText(score);
             newHighScore.setVisibility(View.VISIBLE);
             saveHighestScore(noOfCols, score);
         } else {
             if (convertToTimestamp(score) < convertToTimestamp(getHighscore)) {
                 newHighScore.setVisibility(View.VISIBLE);
-                highestScore.setText("Highest Score: " + score);
+                highestScore.setText(score);
                 saveHighestScore(noOfCols, score);
             } else {
-                highestScore.setText("Highest Score: " + getHighscore);
+                highestScore.setText(getHighscore);
                 newHighScore.setVisibility(View.GONE);
             }
         }
