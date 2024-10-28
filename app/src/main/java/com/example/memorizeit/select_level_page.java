@@ -1,10 +1,8 @@
 package com.example.memorizeit;
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,40 +34,18 @@ public class select_level_page extends AppCompatActivity {
         medium = findViewById(R.id.medium);
         hard = findViewById(R.id.hard);
 
-        // Set click listeners for each CardView
-        easy.setOnClickListener(v -> showNameDialog(3, 12)); // 3 columns for easy level, 6 pairs of images
-        medium.setOnClickListener(v -> showNameDialog(4, 20)); // 4 columns for medium level, 12 pairs of images
-        hard.setOnClickListener(v -> showNameDialog(5, 30)); // 5 columns for hard level, 15 pairs of images
+        // Set click listeners for each CardView, directly starting the game
+        easy.setOnClickListener(v -> startGame(3, 12)); // 3 columns for easy level, 6 pairs of images
+        medium.setOnClickListener(v -> startGame(4, 20)); // 4 columns for medium level, 12 pairs of images
+        hard.setOnClickListener(v -> startGame(5, 30)); // 5 columns for hard level, 15 pairs of images
     }
 
-    // Function to display name dialog box
-    private void showNameDialog(int cols, int index) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Enter Your Name");
-
-        final EditText input = new EditText(this);
-        input.setHint("Enter your name");
-        builder.setView(input);
-
-        builder.setPositiveButton("OK", (dialog, which) -> {
-            String playerName = input.getText().toString().trim();
-            if (playerName.isEmpty()) {
-                playerName = "Player"; // Default name if empty
-            }
-            startGame(cols, index, playerName);
-        });
-
-        builder.setNegativeButton("Cancel", (dialog, which) -> dialog.cancel());
-
-        builder.show();
-    }
-
-    // Function to start game based on selected level
-    private void startGame(int cols, int index, String playerName) {
+    // Function to start game based on selected level, with a default name "Player"
+    private void startGame(int cols, int index) {
         Intent intent = new Intent(select_level_page.this, game_page.class);
         intent.putExtra("noOfColumns", cols);
         intent.putExtra("index", index);
-        intent.putExtra("playerName", playerName);
+        intent.putExtra("playerName", "Player"); // Default name
         startActivity(intent);
         finish();
     }
