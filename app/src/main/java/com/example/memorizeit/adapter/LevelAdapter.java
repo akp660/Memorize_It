@@ -18,6 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.bumptech.glide.Glide;
 import com.example.memorizeit.R;
 import com.example.memorizeit.Shared_Preference_Helper;
@@ -185,7 +186,7 @@ public class LevelAdapter extends RecyclerView.Adapter<LevelAdapter.ViewHolder> 
         //TextView congratsMessage = dialog.findViewById(R.id.congratsMessage);
         TextView yourScore = dialog.findViewById(R.id.yourScore);
         TextView highestScore = dialog.findViewById(R.id.highestScore);
-        TextView newHighScore = dialog.findViewById(R.id.newHighScore);
+        LottieAnimationView newHighScore = dialog.findViewById(R.id.newHighScore);
 
        // congratsMessage.setText("Congratulations " + playerName + "!");
         yourScore.setText(score);
