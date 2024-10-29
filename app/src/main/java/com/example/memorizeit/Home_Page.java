@@ -55,4 +55,12 @@ public class Home_Page extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        // Close the app when the back button is pressed
+        super.onBackPressed();
+        finishAffinity(); // Finishes all activities and closes the app
+    }
+
 }
