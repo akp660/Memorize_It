@@ -1,7 +1,6 @@
-package com.example.memorizeit;
+package com.abhijeet.memorizeit;
 
 import android.annotation.SuppressLint;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -20,7 +19,7 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.memorizeit.adapter.LevelAdapter;
+import com.abhijeet.memorizeit.adapter.LevelAdapter;
 
 import java.util.ArrayList;
 import java.util.Collections;

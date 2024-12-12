@@ -92,7 +92,7 @@
         android:alpha="0.8" />
 
     <!-- Touch interceptor for blocking interactions -->
-    <com.example.memorizeit.TouchInterceptorView
+    <com.abhijeet.memorizeit.TouchInterceptorView
         android:id="@+id/touchInterceptor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

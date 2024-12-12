@@ -1,16 +1,14 @@
-package com.example.memorizeit.adapter;
+package com.abhijeet.memorizeit.adapter;
 
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -20,10 +18,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.bumptech.glide.Glide;
-import com.example.memorizeit.R;
-import com.example.memorizeit.Shared_Preference_Helper;
-import com.example.memorizeit.game_page;
-import com.example.memorizeit.select_level_page;
+import com.abhijeet.memorizeit.R;
+import com.abhijeet.memorizeit.Shared_Preference_Helper;
+import com.abhijeet.memorizeit.game_page;
+import com.abhijeet.memorizeit.select_level_page;
 
 import java.util.Collections;
 import java.util.List;

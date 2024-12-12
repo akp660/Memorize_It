@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.memorizeit'
+    namespace 'com.abhijeet.memorizeit'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.memorizeit"
+        applicationId "com.abhijeet.memorizeit"
         minSdk 24
         targetSdk 34
         versionCode 1

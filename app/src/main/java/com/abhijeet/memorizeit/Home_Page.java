@@ -1,4 +1,4 @@
-package com.example.memorizeit;
+package com.abhijeet.memorizeit;
 
 import android.content.Intent;
 import android.os.Bundle;
