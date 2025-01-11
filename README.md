@@ -22,7 +22,7 @@
 
 1. **Clone the Repository:**
     ```sh
-    git clone https://github.com/<your-username>/MEMORIZ_IT.git
+    git clone https://github.com/akp660/Memorize_It.git
     cd MEMORIZ_IT
     ```
 
