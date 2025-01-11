@@ -53,11 +53,11 @@
 ### Gameplay Screenshots
 
 <div style="text-align: center;">
-    <img src="https://github.com/<your-username>/MEMORIZ_IT/assets/screenshot1.png" alt="Gameplay Screenshot 1" style="width: 600px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/0cc9cce5-820a-4036-9738-09ecaa41b671" alt="Gameplay Screenshot 1" style="width: 600px; height: auto;">
 </div>
 <div style="display: flex; justify-content: center;">
-    <img src="https://github.com/<your-username>/MEMORIZ_IT/assets/screenshot2.png" alt="Gameplay Screenshot 2" style="width: 300px; height: auto; margin-right: 10px;">
-    <img src="https://github.com/<your-username>/MEMORIZ_IT/assets/screenshot3.png" alt="Gameplay Screenshot 3" style="width: 300px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/4dbbc352-85c2-4d00-945d-143b1262207a" alt="Gameplay Screenshot 2" style="width: 300px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/6a78517b-e655-4bea-90a2-49c750223c33" alt="Gameplay Screenshot 3" style="width: 300px; height: auto;">
 </div>
 
 ---
